@@ -6,7 +6,7 @@ namespace PudgeWars
     {
         static void Main()
         {
-            using Main window = new Main(1920, 720, "Baza");
+            using Main window = new Main(500, 500, "Baza");
             window.Run();
         }
     }
