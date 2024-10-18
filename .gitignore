@@ -12,6 +12,10 @@
 *.map
 *.exp
 
+# Folders
+*obj/
+*bin/
+
 # Precompiled Headers
 *.gch
 *.pch
