@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\__sources\\Pudge-Wars\\PudgeWars.csproj": {}
+    "C:\\Users\\asemb\\source\\repos\\nikistgar\\Pudge-Wars\\PudgeWars.csproj": {}
   },
   "projects": {
-    "H:\\__sources\\Pudge-Wars\\PudgeWars.csproj": {
+    "C:\\Users\\asemb\\source\\repos\\nikistgar\\Pudge-Wars\\PudgeWars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\__sources\\Pudge-Wars\\PudgeWars.csproj",
+        "projectUniqueName": "C:\\Users\\asemb\\source\\repos\\nikistgar\\Pudge-Wars\\PudgeWars.csproj",
         "projectName": "PudgeWars",
-        "projectPath": "H:\\__sources\\Pudge-Wars\\PudgeWars.csproj",
+        "projectPath": "C:\\Users\\asemb\\source\\repos\\nikistgar\\Pudge-Wars\\PudgeWars.csproj",
         "packagesPath": "C:\\Users\\asemb\\.nuget\\packages\\",
-        "outputPath": "H:\\__sources\\Pudge-Wars\\obj\\",
+        "outputPath": "C:\\Users\\asemb\\source\\repos\\nikistgar\\Pudge-Wars\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asemb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "GlmSharp": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
             "OpenTK": {
               "target": "Package",
               "version": "[4.8.2, )"
+            },
+            "StbImageSharp": {
+              "target": "Package",
+              "version": "[2.30.15, )"
             }
           },
           "imports": [

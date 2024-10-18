@@ -1,10 +1,13 @@
-#version 410 core
-#extension GL_ARB_separate_shader_objects: enable
-out vec4 FragColor;
+#version 330
 
-uniform vec3 sinColor;
+out vec4 outputColor;
+
+in vec2 texCoord;
+in vec3 ourColor;
+
+uniform sampler2D texture0;
 
 void main()
 {
-    FragColor = vec4(sinColor, 1.0f);
+    outputColor = texture(texture0, texCoord) * vec4(ourColor,0.1f);
 }

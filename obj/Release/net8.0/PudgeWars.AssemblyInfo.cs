@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PudgeWars")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc8f3746ab3167a5e0e1d7a02554634d43f83189")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+741bd458cd16163af4bdff6afad466e469c1e5b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PudgeWars")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PudgeWars")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
